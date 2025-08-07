@@ -1,0 +1,94 @@
+[
+  {
+    "_id": "page_home",
+    "_type": "page",
+    "title": "Home",
+    "slug": {
+      "_type": "slug",
+      "current": "home"
+    },
+    "visibility": "public",
+    "blocks": [
+      {
+        "_type": "hero",
+        "heading": "Welcome to the UK EV Insights Portal",
+        "subheading": "Explore live data, incentives, and tools to make the switch to electric."
+      },
+      {
+        "_type": "statTile",
+        "label": "BEV Share",
+        "value": "24%"
+      },
+      {
+        "_type": "statTile",
+        "label": "Public Chargers",
+        "value": "82,000+"
+      },
+      {
+        "_type": "statTile",
+        "label": "Ultra-rapid Chargers",
+        "value": "8,600+"
+      }
+    ]
+  },
+  {
+    "_id": "page_pricing",
+    "_type": "page",
+    "title": "Pricing",
+    "slug": {
+      "_type": "slug",
+      "current": "pricing"
+    },
+    "visibility": "public",
+    "blocks": [
+      {
+        "_type": "hero",
+        "heading": "Upgrade to Member Access",
+        "subheading": "Unlock the full EV model database, incentive matrix, finance calculators, and regional maps."
+      }
+    ]
+  },
+  {
+    "_id": "releaseNote_initial",
+    "_type": "releaseNote",
+    "version": "2025-08-07",
+    "summary": "Initial data release with core UK EV stats, seed model (MG4), and homepage copy.",
+    "publishedAt": "2025-08-07T00:00:00Z"
+  },
+  {
+    "_id": "tooltip_bev_share",
+    "_type": "tooltip",
+    "key": "bev_share",
+    "title": "Battery Electric Vehicle Share",
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "The proportion of new car registrations that are fully electric (BEV) in the UK market for the given period."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "tooltip_ultra_rapid_count",
+    "_type": "tooltip",
+    "key": "ultra_rapid_count",
+    "title": "Ultra-rapid Charger Count",
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Ultra-rapid chargers are typically rated at 150kW or higher, enabling much faster charging times than standard or rapid units."
+          }
+        ]
+      }
+    ]
+  }
+]
