@@ -1,7 +1,7 @@
 // apps/web/app/layout.tsx
 export const metadata = { title: 'EV Insights', description: 'UK EV data & guidance' };
 
-import './styles/globals.css'; // adjust path if needed (../styles)
+import '../styles/globals.css'; // this path is correct since styles/ is one level up
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
